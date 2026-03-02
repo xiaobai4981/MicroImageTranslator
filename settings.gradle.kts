@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Image Reader"
+rootProject.name = "MicroImageTranslator"
 include(":app")

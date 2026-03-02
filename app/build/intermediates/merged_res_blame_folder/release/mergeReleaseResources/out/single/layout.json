@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.leyou.microimagetranslator.app-mergeReleaseResources-33:/layout/activity_manage_models.xml",
+        "source": "com.leyou.microimagetranslator.app-main-35:/layout/activity_manage_models.xml"
+    },
+    {
+        "merged": "com.leyou.microimagetranslator.app-mergeReleaseResources-33:/layout/fragment_image_translation.xml",
+        "source": "com.leyou.microimagetranslator.app-main-35:/layout/fragment_image_translation.xml"
+    },
+    {
+        "merged": "com.leyou.microimagetranslator.app-mergeReleaseResources-33:/layout/fragment_text_translation.xml",
+        "source": "com.leyou.microimagetranslator.app-main-35:/layout/fragment_text_translation.xml"
+    },
+    {
+        "merged": "com.leyou.microimagetranslator.app-mergeReleaseResources-33:/layout/language_item.xml",
+        "source": "com.leyou.microimagetranslator.app-main-35:/layout/language_item.xml"
+    },
+    {
+        "merged": "com.leyou.microimagetranslator.app-mergeReleaseResources-33:/layout/spinner_menu_item.xml",
+        "source": "com.leyou.microimagetranslator.app-main-35:/layout/spinner_menu_item.xml"
+    },
+    {
+        "merged": "com.leyou.microimagetranslator.app-mergeReleaseResources-33:/layout/activity_main.xml",
+        "source": "com.leyou.microimagetranslator.app-main-35:/layout/activity_main.xml"
+    }
+]

@@ -1,19 +1,40 @@
+import java.io.FileInputStream
+import java.util.Properties
+
 plugins {
     id("com.android.application")
 }
 
 android {
-    namespace = "com.rick.imagereader"
+    namespace = "com.leyou.microimagetranslator"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.rick.imagereader"
+        applicationId = "com.leyou.microimagetranslator"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            abiFilters += "arm64-v8a"
+        }
+    }
+
+    signingConfigs {
+        val keystorePropertiesFile = rootProject.file("keystore.properties")
+        val keystoreProperties = Properties()
+
+        keystoreProperties.load(FileInputStream(keystorePropertiesFile))
+
+        create("basic") {
+            storeFile = rootProject.file(keystoreProperties.getProperty("storeFile"))
+            storePassword = keystoreProperties.getProperty("storePassword")
+            keyAlias = keystoreProperties.getProperty("keyAlias")
+            keyPassword = keystoreProperties.getProperty("keyPassword")
+        }
     }
 
     buildTypes {
@@ -23,6 +44,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("basic")
         }
     }
     compileOptions {
@@ -42,9 +64,9 @@ dependencies {
     implementation("androidx.activity:activity:1.9.0")
 
     // ML Kit Dependencies for OCR and Translation
-    implementation("com.google.mlkit:text-recognition:16.0.0")
-    implementation("com.google.mlkit:translate:17.0.2")
-    implementation("com.google.mlkit:language-id:17.0.0")
+    implementation("com.google.mlkit:text-recognition:16.0.1")
+    implementation("com.google.mlkit:translate:17.0.3")
+    implementation("com.google.mlkit:language-id:17.0.6")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
