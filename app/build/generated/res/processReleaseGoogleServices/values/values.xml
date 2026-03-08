@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">951178387555</string>
+    <string name="google_api_key" translatable="false">AIzaSyDNl2Ugat72weWX-ttguIKFOdDf0Axn2lE</string>
+    <string name="google_app_id" translatable="false">1:951178387555:android:75f62368057c50c7241856</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDNl2Ugat72weWX-ttguIKFOdDf0Axn2lE</string>
+    <string name="google_storage_bucket" translatable="false">leyou-micro-image-translator.firebasestorage.app</string>
+    <string name="project_id" translatable="false">leyou-micro-image-translator</string>
+</resources>

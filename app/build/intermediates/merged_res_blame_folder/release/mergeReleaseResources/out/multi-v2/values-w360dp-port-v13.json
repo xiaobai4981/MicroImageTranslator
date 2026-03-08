@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.leyou.microimagetranslator.app-mergeReleaseResources-32:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.leyou.microimagetranslator.app-mergeReleaseResources-58:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\xiaobai\\.gradle\\caches\\8.13\\transforms\\5b5b3eb69891ce8a4d39cd506075a8d2\\transformed\\material-1.12.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\xiaobai\\.gradle\\caches\\8.13\\transforms\\08abc57df550ae5b900ba69ece635228\\transformed\\material-1.12.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

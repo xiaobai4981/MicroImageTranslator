@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.leyou.microimagetranslator.app-mergeReleaseResources-32:/values-v17/values-v17.xml",
+            "outputFile": "com.leyou.microimagetranslator.app-mergeReleaseResources-58:/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\xiaobai\\.gradle\\caches\\8.13\\transforms\\34c598ee6140a25fec2212a6bab3dc30\\transformed\\appcompat-1.7.0\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\xiaobai\\.gradle\\caches\\8.13\\transforms\\217c5c265a3f85739f315adcff7e3dc4\\transformed\\appcompat-1.7.0\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

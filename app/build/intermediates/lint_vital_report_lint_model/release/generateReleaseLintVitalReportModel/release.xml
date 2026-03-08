@@ -1,8 +1,9 @@
 <variant
     name="release"
     package="com.leyou.microimagetranslator"
-    minSdkVersion="26"
+    minSdkVersion="28"
     targetSdkVersion="35"
+    shrinking="true"
     mergedManifest="build\intermediates\merged_manifest\release\processReleaseMainManifest\AndroidManifest.xml"
     manifestMergeReport="build\outputs\logs\manifest-merger-release-report.txt"
     proguardFiles="build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.12.0;proguard-rules.pro"
@@ -26,7 +27,7 @@
       type="MAIN"
       applicationId="com.leyou.microimagetranslator"
       generatedSourceFolders="build\generated\ap_generated_sources\release\out;build\generated\data_binding_base_class_source_out\release\out"
-      generatedResourceFolders="build\generated\res\resValues\release"
-      desugaredMethodsFiles="C:\Users\xiaobai\.gradle\caches\8.13\transforms\13804f95e5007c896b54622befee3631\transformed\D8BackportedDesugaredMethods.txt">
+      generatedResourceFolders="build\generated\res\processReleaseGoogleServices;build\generated\res\injectCrashlyticsMappingFileIdRelease;build\generated\res\resValues\release"
+      desugaredMethodsFiles="C:\Users\xiaobai\.gradle\caches\8.13\transforms\f5c4519f2f45335106391b57362e8731\transformed\D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

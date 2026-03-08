@@ -1,2 +1,2 @@
 #- File Locator -
-listingFile=../../../apk/release/output-metadata.json
+listingFile=../../../../../../../../小米相关资料/小米上架相关材料/apk包/release/output-metadata.json

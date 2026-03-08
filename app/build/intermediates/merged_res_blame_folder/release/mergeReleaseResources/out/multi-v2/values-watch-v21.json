@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.leyou.microimagetranslator.app-mergeReleaseResources-32:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.leyou.microimagetranslator.app-mergeReleaseResources-58:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\xiaobai\\.gradle\\caches\\8.13\\transforms\\34c598ee6140a25fec2212a6bab3dc30\\transformed\\appcompat-1.7.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\xiaobai\\.gradle\\caches\\8.13\\transforms\\217c5c265a3f85739f315adcff7e3dc4\\transformed\\appcompat-1.7.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",
